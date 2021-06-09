@@ -3,9 +3,11 @@ import React from 'react';
 import './SideDrawer.css';
 
 const SideDrawer = props => {
-    return <header className="main-header">
+    return <aside className="side-drawer">
         {props.children}
-    </header>
+    </aside>
 };
 
 export default SideDrawer;
+
+
